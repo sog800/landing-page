@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+header {
+    background-image:url('cat_images/cute-cat-icegif\ \(1\).gif'); background-repeat:repeat; 
+    background-size: cover;
+    padding: 40px;
+}
+.link_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    padding: 20px;
+}
+.header_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    color:aliceblue;
+    font-size: 18px;
+}
+.header_image {
+    border-radius: 10px;
+}
+.logo_text {
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header_links a {
+    margin: 10px;
+    color:aliceblue;
+}
+.header_logo {
+    border: solid white 5px;
+    border-radius: 100%;
+    background-color: black;
+    padding: 15px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+/* main */
+.cats h2 {
+    font-weight: bold;
+    text-align: center;
+    color:#1F2937;
+    font-size: 36px;
+    margin-top: 70px;
+}
+.header_button {
+    background-color:rgb(34, 124, 172) ;
+    border-radius: 10px;
+    padding: 15px 9px;
+    margin-top:20px;
+    width: 150px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+
+}
+.top_cats{
+    display: flex;
+    justify-content: center;
+}
+.top_cats img {
+    width:200px;
+    border-radius: 10px;
+}
+.top_cats div {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.top_cats p {
+    text-align: center;
+    color:#3e4c5f
+}
+
+.testimony {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: 70px;
+}
+.testimony p {
+    font-size: 34px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 70px;
+}
+.testimony a {
+    margin-left: auto;
+    margin-right: 70px;
+    color:#1F2937;
+}
+.box {
+    width: 80%;
+    border-radius: 15px;
+    background-color: rgb(34, 124, 172) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
+}
+.below {
+    background-color:rgb(34, 124, 172) ;
+    border-radius: 10px;
+    padding: 10px 9px;
+    margin-top:20px;
+    width: 150px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid white 3px;
+}
+footer{
+    background: #1F2937;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    color: white;
+    padding: 80px;
+}
+footer a {
+    color: white;
+}
